@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Poppins:wght@500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: "Fredoka", sans-serif;
+    background-color: rgb(207, 201, 201);
+}
+.b-radius{
+    border-radius: 100px;
+    border-top-right-radius: 0%;
+    border-top-left-radius: 0%;
+}
+.w-screen{
+    width: 1425px;
+
+}
+.h-screen{
+    height: 250px;
+}
+.pt-screen{
+    padding-top: 50px;
+}
+.w1-screen{
+    width: 400px;
+}
+.bg-color{
+    background-color: #cffafe;
+}
+
+@media screen and (max-width:766px){
+    .nav1{
+        display: none;
+    }
+}
